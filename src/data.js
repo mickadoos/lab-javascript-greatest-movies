@@ -1,3 +1,5 @@
+// export default;
+ 
 const movies = [
   {
     title: 'The Shawshank Redemption',
