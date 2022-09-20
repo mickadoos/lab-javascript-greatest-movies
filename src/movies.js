@@ -64,8 +64,9 @@ function orderByYear(moviesArray) {
 
     sortedArray.sort((a, b) => {
         if (a.year === b.year){
-            if( a.title < b.title) return -1
-            if (a.title > b.title) return 1 ;
+            if( a.title < b.title) return -1;
+            else return 1;
+            // if (a.title > b.title) return 1 ;
         } else {
             return a.year - b.year;
         }
